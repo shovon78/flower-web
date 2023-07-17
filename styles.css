@@ -113,6 +113,7 @@ main {
     gap: 33px;
     padding: 80px;
     justify-content: space-between;
+    background-color: rgb(185, 182, 177);
 
 }
 
@@ -127,12 +128,36 @@ img {
     display: flex;
     gap: 50px;
     margin-top: 80px;
+    background-color: pink;
 }
 
 span {
-    color: brown;
+    color: orangered;
 }
 
 .deal-container {
     text-align: center;
 }
+
+/*------------------Instagram Section-------------------------*/
+
+.instagram-container{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;  
+}
+
+/*-----------------------LAtest Section------------------*/
+.latest-container{
+    display: flex;
+    gap: 10px;
+    
+}
+
+#email{
+    width: 800px;
+}
+.latest-deal{
+    background-image: url(C:\projects\flower-web\Flower Asset\Rectangle 9.png);
+}
+    
